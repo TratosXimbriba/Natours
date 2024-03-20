@@ -16,4 +16,16 @@
   .clip-hero {
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   }
+
+  .btn-hover {
+    transform: translateY(-3px);
+  }
+
+  .btn-click {
+    transform: translateY(-1px);
+  }
+
+  .fill-mode-backwards {
+    animation-fill-mode: backwards;
+  }
 }

@@ -28,4 +28,10 @@
   .fill-mode-backwards {
     animation-fill-mode: backwards;
   }
+
+  .img-hover {
+    outline: 1.5rem solid #55c57a;
+    transform: scale(1.05) translateY(-0.5rem);
+    z-index: 10;
+  }
 }

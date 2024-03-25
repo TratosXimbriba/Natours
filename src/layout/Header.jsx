@@ -2,7 +2,7 @@ import Button from "../components/Button";
 
 function Header() {
   return (
-    <header className="clip-hero relative m-7 h-[95vh] bg-hero-img bg-cover bg-top">
+    <header className="clip-hero relative h-[95vh] bg-[linear-gradient(to_right_bottom,rgba(126,213,111,0.8),rgba(40,180,131,0.8)),url('/public/img/hero.jpg')] bg-cover bg-top">
       <div className="absolute left-10 top-10">
         <img src="./../public/img/logo-white.png" alt="Logo" className="h-11" />
       </div>

@@ -1,5 +1,6 @@
+import FeaturesSection from "./layout/FeaturesSection";
 import Header from "./layout/Header";
-import Section from "./layout/Section";
+import AboutSection from "./layout/AboutSection";
 
 /*
 color-primary: #55c57a
@@ -15,10 +16,11 @@ color-dark: #000
 
 function App() {
   return (
-    <>
+    <div className="p-7">
       <Header />
-      <Section />
-    </>
+      <AboutSection />
+      <FeaturesSection />
+    </div>
   );
 }
 

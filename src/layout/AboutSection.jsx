@@ -1,10 +1,10 @@
 import Button from "../components/Button";
 import ImageTrio from "../components/ImageTrio";
 
-function Section() {
+function AboutSection() {
   return (
     <main>
-      <section className="m-7 mt-[-23vh] bg-[#f7f7f7] py-[25rem]">
+      <section className="mt-[-23vh] bg-[#f7f7f7] py-[25rem]">
         <div className="text-center">
           <h2 className="inline-block bg-green-gradient bg-clip-text pb-[8rem] text-5xl font-bold uppercase text-transparent">
             Exciting tours for adventurous people
@@ -45,4 +45,4 @@ function Section() {
   );
 }
 
-export default Section;
+export default AboutSection;

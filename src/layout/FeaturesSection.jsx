@@ -4,14 +4,14 @@ import { IoMapOutline } from "react-icons/io5";
 import { IoHeartOutline } from "react-icons/io5";
 
 const divStyles =
-  "hover:features-hover transition-all h-[23rem] flex flex-col items-center rounded bg-[rgba(255,255,255,0.8)] p-8 text-center text-2xl shadow-sm";
-const iconStyles = "inline-block  text-[6rem] text-[#55c57a] ";
+  "hover:features-hover transition-all h-[100%] w-[125%] flex flex-col items-center rounded bg-[rgba(255,255,255,0.8)] p-8 text-center text-2xl shadow-sm";
+const iconStyles = "inline-block text-[3.5rem] text-[#55c57a]";
 
 function FeaturesSection() {
   return (
-    <section className="grid grid-cols-6 gap-[3.5rem] self-center bg-[linear-gradient(to_right_bottom,rgba(126,213,111,0.8),rgba(40,180,131,0.8)),url('../../public/img/nat-4.jpg')] bg-cover py-[20rem]">
+    <section className="clip-features grid grid-cols-6 self-center bg-[linear-gradient(to_right_bottom,rgba(126,213,111,0.8),rgba(40,180,131,0.8)),url('../../public/img/nat-4.jpg')] bg-cover py-[20rem] md:gap-[3rem] lg:gap-[6rem]">
       <div className={`${divStyles} col-start-2 `}>
-        <IoGlobeOutline className={iconStyles} />
+        <IoGlobeOutline className={`${iconStyles} `} />
         <h3 className="mb-2 pb-3 pt-7 font-bold">Explore the world</h3>
         <p className="text-xl">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab labore

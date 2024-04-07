@@ -4,7 +4,7 @@ import ImageTrio from "../components/ImageTrio";
 function AboutSection() {
   return (
     <main>
-      <section className="mt-[-23vh] bg-[#f7f7f7] py-[25rem]">
+      <section className="my-[-25vh] bg-[#f7f7f7] py-[25rem]">
         <div className="text-center">
           <h2 className="inline-block bg-green-gradient bg-clip-text pb-[8rem] text-5xl font-bold uppercase text-transparent">
             Exciting tours for adventurous people

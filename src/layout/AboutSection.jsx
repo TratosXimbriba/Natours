@@ -29,7 +29,13 @@ function AboutSection() {
               modi non dignissimos. Quod architecto, laboriosam amet excepturi
               laborum ea! Doloribus, deserunt eveniet.
             </p>
-            <Button type={"secondary"}>Learn more &rarr;</Button>
+            <Button
+              textColor={"defaultGreen"}
+              bgColor={"defaultGreen"}
+              type={"secondary"}
+            >
+              Learn more &rarr;
+            </Button>
           </div>
           <div className="col-start-3 col-end-4 w-full">
             <ImageTrio

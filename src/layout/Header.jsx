@@ -21,6 +21,8 @@ function Header() {
           animated={
             "fill-mode-backwards animate-[move-in-bottom_0.5s_ease-out_0.75s] transition-all"
           }
+          textColor={"#000"}
+          bgColor={"#fff"}
         >
           Discover our tours
         </Button>

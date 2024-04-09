@@ -1,4 +1,5 @@
 import Card from "../components/Card";
+import Button from "../components/Button";
 
 const tours = {
   tourSea: {
@@ -51,7 +52,7 @@ const blueGradient =
 
 function ToursSection() {
   return (
-    <section className=" mt-[-32vh] bg-[#f7f7f7] py-[25rem]">
+    <section className=" mt-[-32vh] bg-[#f7f7f7] pb-10 pb-[10rem] pt-[25rem]">
       <div className="text-center">
         <span className="inline-block bg-green-gradient bg-clip-text pb-[8rem] text-5xl font-bold uppercase text-transparent">
           Most popular tours
@@ -77,6 +78,15 @@ function ToursSection() {
           gradientTitle={blueGradient}
           tour={tours.tourSnow}
         />
+      </div>
+      <div className="mt-20 text-center">
+        <Button
+          textColor={"white"}
+          bgColor={"defaultGreen"}
+          animated={"transition-all"}
+        >
+          Discover our tours
+        </Button>
       </div>
     </section>
   );

@@ -12,7 +12,9 @@ function Card({ col, gradientImg, gradientTitle, tour }) {
         <div className="flex h-full flex-col content-center items-center justify-center text-white">
           <span className="mb-2 uppercase">Only</span>
           <span className="pb-12 text-8xl font-thin">${tour.price}</span>
-          <Button className="">Book now!</Button>
+          <Button textColor={"black"} bgColor={"#fff"}>
+            Book now!
+          </Button>
         </div>
       </div>
       <div className="hover:card-flip backface-hidden card-front h-full w-full bg-white transition-all duration-[900ms] ease-out hover:invisible">

@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      colors: {
+        defaultGreen: "#55c57a",
+      },
       backgroundImage: {
         "green-gradient":
           "linear-gradient(to right bottom,rgba(126, 213, 111, 0.8), rgba(40, 180, 131, 0.8))",

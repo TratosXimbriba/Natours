@@ -81,8 +81,8 @@ function ToursSection() {
       </div>
       <div className="mt-20 text-center">
         <Button
-          textColor={"white"}
-          bgColor={"defaultGreen"}
+          textColor={"text-white"}
+          bgColor={"bg-[#55c57a]"}
           animated={"transition-all"}
         >
           Discover our tours

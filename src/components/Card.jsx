@@ -12,7 +12,7 @@ function Card({ col, gradientImg, gradientTitle, tour }) {
         <div className="flex h-full flex-col content-center items-center justify-center text-white">
           <span className="mb-2 uppercase">Only</span>
           <span className="pb-12 text-8xl font-thin">${tour.price}</span>
-          <Button textColor={"black"} bgColor={"#fff"}>
+          <Button textColor={"text-black"} bgColor={"bg-white"}>
             Book now!
           </Button>
         </div>

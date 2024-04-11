@@ -30,9 +30,9 @@ function AboutSection() {
               laborum ea! Doloribus, deserunt eveniet.
             </p>
             <Button
-              textColor={"defaultGreen"}
-              bgColor={"defaultGreen"}
               type={"secondary"}
+              textColor={"text-[#55c57a]"}
+              borderColor={"border-[#55c57a]"}
             >
               Learn more &rarr;
             </Button>
